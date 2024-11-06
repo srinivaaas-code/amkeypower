@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    height: 90px;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.3rem;
+}
+.navbar-brand img{
+    height: 60px;
+    margin-left: 15px;
+}
+.nav-link{
+    position: relative;
+    font-weight: 500;
+    color: rgb(34, 32, 32);
+}
+.nav-link:hover,.nav-link:active{
+    color: black;
+    top: -5px;
+    border-bottom: 3px solid black;
+}
+.nav-item button{
+    position: relative;
+    border-radius: 20px;
+}
+.nav-item button:hover ,.nav-item button:active{
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+.home_page{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+
+}
+.home_page h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 80%;
+}
+.text_area p{
+
+    width: 70%;
+}
+.text_area button{
+    height: 40px;
+    width: 140px;
+    background: transparent;
+    border: 1.5px solid white;
+    border-radius: 26px;
+    padding: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.card{
+    border: none;
+}
+.card-icons{
+    font-size: 38px;
+    background-color: rgb(233, 233, 233);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px;
+}
+.card button{
+    border-radius: 20px;
+}
+.about-baclground-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.705)), url(https://thumbs.dreamstime.com/b/close-up-hand-electrical-engineering-using-measuring-equipment-tool-to-checking-electricity-circuit-breaker-cable-wiring-214523687.jpg);
+    height: 100%;
+    width: 100vw;
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-head{
+    font-family: roboto;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.about-baclground-image h1{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.about-para{
+    border-left: 2px solid white;
+    padding-left: 18px;
+    font-family:poppins;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
